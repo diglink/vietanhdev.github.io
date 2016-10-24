@@ -1,0 +1,50 @@
+---
+layout: page
+title: "VietAnhDev's ContactPage"
+subtitle: Send me a message via this page
+css: /css/contact-page.css
+---
+
+<h3>Bạn có thể gửi cho tôi một tin nhắn qua form bên dưới:</h3>
+
+<form id="contact-form" method="POST" action="https://formspree.io/contactform@vietanhdev.com">
+  <input type="text" name="_gotcha" style="display:none" />
+  <input type="email" class="form-control input-lg" name="email" placeholder="Email">
+  <input type="text" class="form-control input-lg" name="website" placeholder="Your name / Tên bạn">
+  <textarea class="form-control input-lg" row="3" name="message" placeholder="Message / Nội dung tin nhắn"></textarea>
+  <input type="submit" class="btn btn-lg btn-primary" value="Send / Gửi đi"></input>
+</form>
+
+<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+<script>
+	var $contactForm = $('#contact-form');
+
+	$contactForm.submit(function(e) {
+		e.preventDefault();
+		var $submit = $('input:submit', $contactForm);
+		var defaultSubmitText = $submit.val();
+
+		$.ajax({
+			url: 'https://formspree.io/contactform@vietanhdev.com',
+			method: 'POST',
+			data: $(this).serialize(),
+			dataType: 'json',
+			beforeSend: function() {
+				$submit.attr('disabled', true).val('Sending...');
+			},
+			success: function(data) {
+				$submit.val('Message sent!');
+				setTimeout(function() {
+					$submit.attr('disabled', false).val(defaultSubmitText);
+				}, 5000);
+			},
+			error: function(err) {
+				$submit.val('Ops, there was an error.');
+				setTimeout(function() {
+					$submit.attr('disabled', false).val(defaultSubmitText);
+				}, 5000);
+			}
+		});
+	});
+</script>
+
