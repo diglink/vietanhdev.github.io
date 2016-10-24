@@ -123,14 +123,14 @@ img {
 .navbar-custom .navbar-brand,
 .navbar-custom .nav li a {
   font-weight: 800;
-  color: #FFF;
+  color: #2C3E50;
 }
 
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus ,
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #FFF;
+  color: #2C3E50;
 }
 
 @media only screen and (min-width: 768px) {
@@ -196,11 +196,11 @@ img {
 
 /* Force white color for Menu button on Mobile device VA*/
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
-  background: #FFF !important;
+  background: #2C3E50 !important;
   border:0 !important;
 }
 .navbar-default .navbar-toggle{
-  background: #FFF !important;
+  background: #2C3E50 !important;
   border:0 !important;
 }
 
