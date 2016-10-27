@@ -15,7 +15,7 @@ Cũng lâu rồi tôi không viết bài trên blog của mình. Hôm nay nhân 
 
 Trước hết, tôi xin phép so sánh Fedora với một bản phân phối linux hết sức nổi tiếng - Ubuntu. Tôi đã từng sử dụng Ubuntu cho máy tính của mình trong một thời gian dài và hết sức yêu thích nó vì sự tự do, thoải mái, và những trải nghiệm người dùng tinh tế.
 
-Fedora cũng là hệ điều hành nguồn mở dựa trên nhân linux, nó cũng miễn phí và đem lại cảm giác tự do, thoải mái như trên Ubuntu vậy. Thế đâu là sự khá biệt giữa chúng? Ubuntu được phát triển tập trung trở thành một hệ điều hành ổn định, dễ dùng để có thể thay thế Windows. Còn ở Fedora, ta tìm thấy một hệ điều hành luôn được tích hợp những chức năng, công nghệ mới nhất của thế giới nguồn mở. Fedora là phiên bản cộng đồng của Red Hat, một bản phân phối Linux thương mại khá nổi tiếng sử dụng cho máy chủ. Các tính năng mới nhất luôn được đưa vào Fedora, kiểm soát ổn định một thời gian trước khi trau truốt và đưa vào phiên bản thương mại Red Hat.
+Fedora cũng là hệ điều hành nguồn mở dựa trên nhân linux, nó cũng miễn phí và đem lại cảm giác tự do, thoải mái như trên Ubuntu vậy. Thế đâu là sự khá biệt giữa chúng? Ubuntu được phát triển tập trung trở thành một hệ điều hành ổn định, dễ dùng để có thể thay thế Windows. Còn ở Fedora, ta tìm thấy một hệ điều hành luôn được tích hợp những chức năng, công nghệ mới nhất của thế giới nguồn mở. Fedora là phiên bản cộng đồng của Red Hat, một bản phân phối Linux thương mại khá nổi tiếng sử dụng cho máy chủ. Các tính năng mới nhất luôn được đưa vào Fedora, kiểm soát ổn định một thời gian trước khi trau chuốt và đưa vào phiên bản thương mại Red Hat.
 
 Với sự trưởng thành của mình, Fedora dần đạt được sự ổn định, tinh tế và trở thành một trong những bản phân phối Linux hàng đầu. Trải nghiệm, sử dụng Fedora sẽ trang bị cho chúng ta nhiều kiến thức về linux, về những công nghệ nguồn mở mới nhất.
 
@@ -51,7 +51,7 @@ Việc ghi ra USB đề thực hiện cài đặt bạn có thể dùng [YUMI �
 
 ## Những việc nên làm sau khi cài đặt Fedora:
 
-### Thiết lập thao tác chạm để click nếu bạn dùng laptop
+### Thiết lập thao tác chạm để click cho Touchpad nếu bạn dùng laptop
 
 Thông thường khi tôi dùng Ubuntu, mặc định thao tác chạm một ngón tay vào Touchpad tương đương với click chuột. Tuy nhiên trên Fedora mặc định tắt thiết lập đó, tức là bạn phải bấm vào khu vực nút chuột để thực hiện click.
 
@@ -74,9 +74,9 @@ Fedora có sẵn bộ gõ Tiếng Việt. Ta có thể bật nó bằng cái và
 
 Nếu bạn đã quen dùng Ubuntu và một số bản Linux khác, bạn sẽ quen với cách ấn Ctrl + Alt + t để mở terminal (cửa sổ dòng lệnh). Trên Fedora mặc định không có phím tắt này.
 
-Để cài đặt nó ta vào **Settings > Keyboard > Custom shortcuts > Nhấp dấu + để thêm phím tắt**. Nhập **Name** là `Terminal` và **Command* là `gnome-terminal`.
+Để cài đặt nó ta vào **Settings > Keyboard > Custom shortcuts > Nhấp dấu + để thêm phím tắt**. Nhập **Name** là `Terminal` và **Command** là `gnome-terminal`.
 
-Ta đã thấy xuất hiện phím tắt Terminal nhưng trạng thái Disabled. Nhấp vào Disable và ấn Ctrl + Alt + t để gán phím tắt cho nó.
+Ta đã thấy xuất hiện phím tắt Terminal nhưng trạng thái Disabled. Nhấp vào Disabled và ấn Ctrl + Alt + t để gán phím tắt cho nó.
 
 ![Gán phím tắt Terminal](/files/linux/fedora-linux/shortcut-key-terminal.png)
 
@@ -84,7 +84,7 @@ Ta đã thấy xuất hiện phím tắt Terminal nhưng trạng thái Disabled.
 
 **Chuyển kiểu gõ:** Thiết lập phím tắt chuyển đổi giữa bộ gõ Tiếng Việt và Tiếng Anh: **Settings > Keyboard > Switch to next input source** và gán phím tắt vd Ctrl + Space.
 
-**Ấn tất cả cửa sổ:** **Settings > Keyboard > Navigation > Hide all normal windows**. Tôi thường gán phím **Win + d** cho việc này.
+**Ẩn tất cả cửa sổ:** **Settings > Keyboard > Navigation > Hide all normal windows**. Tôi thường gán phím **Win + d** cho việc này.
 
 ## Cài đặt các phần mềm
 
@@ -121,7 +121,7 @@ sudo dnf upgrade
 ~~~sh
 sudo dnf search <tên gói>
 ~~~
-
+   
    + Tìm theo tên và mô tả
 
 ~~~sh
