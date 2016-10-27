@@ -121,7 +121,7 @@ sudo dnf upgrade
 ~~~sh
 sudo dnf search <tên gói>
 ~~~
-   
+-
    + Tìm theo tên và mô tả
 
 ~~~sh
