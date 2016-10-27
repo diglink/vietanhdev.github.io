@@ -30,7 +30,7 @@ Vì Linux là hệ điều hành tôi sử dụng thường xuyên ở trường
 Bạn có thể tải Fedora Workstation về từ địa chỉ [https://getfedora.org/en/workstation/download/](https://getfedora.org/en/workstation/download/
 )
 
-Việc ghi ra USB đề thực hiện cài đặt bạn có thể dùng ![YUMI – Multiboot USB Creator](http://www.pendrivelinux.com/yumi-multiboot-usb-creator/). Ngoài Fedora, YUMI còn hỗ trợ ghi nhiều bản phân phối Linux, phần mềm khác ra USB bao gồm cả Windows, Antivirus, đĩa cứu hộ. Đặc biệt bạn có thể tạo một USB chứa nhiều bản cài đặt bên trong.
+Việc ghi ra USB đề thực hiện cài đặt bạn có thể dùng [YUMI – Multiboot USB Creator](http://www.pendrivelinux.com/yumi-multiboot-usb-creator/). Ngoài Fedora, YUMI còn hỗ trợ ghi nhiều bản phân phối Linux, phần mềm khác ra USB bao gồm cả Windows, Antivirus, đĩa cứu hộ. Đặc biệt bạn có thể tạo một USB chứa nhiều bản cài đặt bên trong.
 
 **Một số giao diện của bản Fedora 24 tôi đang dùng:**
 
