@@ -116,12 +116,12 @@ sudo dnf upgrade
 
 - Tìm kiếm các gói mới
    
-	+ Tìm theo tên
+..+ Tìm theo tên
 
 ~~~sh
 sudo dnf search <tên gói>
 ~~~
-	+ Tìm theo tên và mô tả
+..+ Tìm theo tên và mô tả
 
 ~~~sh
 sudo dnf search all <tên gói>
