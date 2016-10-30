@@ -16,7 +16,7 @@ body {
   font-size: 18px;
   color: #404040;
   position: relative;
-  background: #FFF;
+  background: url('../files/background/furley-bg.png');
 }
 p {
   line-height: 1.5;
