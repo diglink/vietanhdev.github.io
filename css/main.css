@@ -346,6 +346,10 @@ footer .theme-by {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  border-bottom: 2px solid #D4DED9;
+  -webkit-box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.32);
+  -moz-box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.32);
+  box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.32);
   margin-top: 51px; /* The small navbar is 50px tall + 1px border */
   margin-bottom: 35px;
 }
