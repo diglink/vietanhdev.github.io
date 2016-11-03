@@ -23,11 +23,11 @@ description: Viet Anh Nguyen's Homepage, where I share with the world about my l
 
 navbar-links:
   Home: ""
-  Archive: /categories/
-  Aboutme: /aboutme/
-  My Projects: /projects/
-  Contact: /contact/
-nav-search: /search/
+  Archive: categories/
+  Aboutme: aboutme/
+  My Projects: projects/
+  Contact: contact/
+nav-search: search/
 
 # --- Footer options --- #
 
