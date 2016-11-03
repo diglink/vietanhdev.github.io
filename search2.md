@@ -1,6 +1,5 @@
 ---
 layout: page
-permalink: /search/
 title: "Search VietAnhDev.com"
 subtitle: Feeling lost? Look for things in my blog.
 ---
