@@ -1,5 +1,5 @@
 ---
-layout: concat_file
+layout: null
 ---
 {% include js/jquery-3.1.1.min.js %}
 {% include js/bootstrap.min.js %}
