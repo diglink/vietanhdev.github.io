@@ -13,7 +13,7 @@ $(document).ready(function(){
 	});
 	function line2(){
 		$(".typed-cursor").remove();
-		$(".page-heading").append("<br>$ <span id='typed2'></span>");
+		$("#typed1").append("<br>$ <span id='typed2'></span>");
 		$("#typed2").typed({
 			strings: ["Hi!"],
 			typeSpeed: 45,
@@ -24,7 +24,7 @@ $(document).ready(function(){
 	}
 	function line3(){
 		$(".typed-cursor").remove();
-		$(".page-heading").append("<br>$ <span id='typed3'></span>");
+		$("#typed2").append("<br>$ <span id='typed3'></span>");
 		$("#typed3").typed({
 			strings: ["I'm a student"],
 			typeSpeed: 45,
@@ -35,7 +35,7 @@ $(document).ready(function(){
 	}
 	function line4(){
 		$(".typed-cursor").remove();
-		$(".page-heading").append("<br>$ <span id='typed4'></span>");
+		$("#typed3").append("<br>$ <span id='typed4'></span>");
 		$("#typed4").typed({
 		strings: ["I'm a blogger"],
 		typeSpeed: 45,
@@ -46,7 +46,7 @@ $(document).ready(function(){
 	}
 	function line5(){
 		$(".typed-cursor").remove();
-		$(".page-heading").append("<br>$ <span id='typed5'></span>");
+		$("#typed4").append("<br>$ <span id='typed5'></span>");
 		$("#typed5").typed({
 		strings: ["I'm a developer"],
 		typeSpeed: 45,
@@ -57,7 +57,7 @@ $(document).ready(function(){
 	}
 	function line6(){
 		$(".typed-cursor").remove();
-		$(".page-heading").append("<br>$ <span id='typed6'></span>");
+		$("#typed5").append("<br>$ <span id='typed6'></span>");
 		$("#typed6").typed({
 		strings: ["I'm Viet Anh. Nice to meet you!"],
 		typeSpeed: 45
