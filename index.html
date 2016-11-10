@@ -5,6 +5,8 @@ meta-description: "The website of VietAnhDev (Nguyễn Việt Anh) - where I sha
 title: "Hi, I'm Viet Anh"
 subtitle: Student / Software Developer / Blogger
 bigimg: "/files/background/vietanhdev.png"
+js:
+   - "/js/ani-text-home.js"
 ---
 <div class="main-explain-area jumbotron">
 	<h2>Chào bạn!</h2>
@@ -74,4 +76,30 @@ bigimg: "/files/background/vietanhdev.png"
 	.big-img.intro-header {
 		background: #EAEDEC url("/files/background/vietanhdev.png") right bottom no-repeat;
 	}
+</style>
+
+
+<!-- For the animated blinking cursor typed.js -->
+<style type="text/css">
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+} 
 </style>
