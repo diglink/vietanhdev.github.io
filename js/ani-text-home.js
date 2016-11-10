@@ -7,7 +7,7 @@ $(document).ready(function(){
 	if (w > 700) {
 
 		// Set CSS for .page-heading
-		$(".page-heading").css({"margin":"0", "padding-top":"10px", "padding-bottom":"10px"})
+		$(".page-heading").css({"margin":"0", "padding-top":"15px", "padding-bottom":"15px"})
 
 		$(".page-heading").html("<div class='text-editor-wrap'><div class='title-bar'><span class='title'>Terminal</span</div><div class='text-body'>$ <span id='typed'></div></div>");
 		$("#typed").typed({
