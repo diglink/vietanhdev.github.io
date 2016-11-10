@@ -1,7 +1,7 @@
 ---
 layout: null
 ---
-{% include /js/typed.js %}
+{% include /js/typed.min.js %}
 $(document).ready(function(){
 	var w = window.innerWidth;
 	function helloWorld(){
