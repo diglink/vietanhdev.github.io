@@ -11,4 +11,8 @@ $(function(){
 		shift();
 		}
 	});
+	function shift(){
+      $(".head-wrap").addClass("shift-text");
+      terminalHeight();
+  	}
 });
