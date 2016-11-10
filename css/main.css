@@ -1,12 +1,12 @@
 ---
 layout: null
 ---
-{% include css/font1.css %} /*Lora:400,700,400italic,700italic*/
-{% include css/font2.css %} /*Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800*/
-{% include css/normalize.css %}
+{% include css/font1.min.css %} /*Lora:400,700,400italic,700italic*/
+{% include css/font2.min.css %} /*Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800*/
+{% include css/normalize.min.css %}
 {% include css/bootstrap.min.css %}
 {% include css/bootstrap-social.min.css %}
-{% include css/pygment_highlights.css %}
+{% include css/pygment_highlights.min.css %}
 {% include css/font-awesome.min.css %}
 
 /* --- General --- */
