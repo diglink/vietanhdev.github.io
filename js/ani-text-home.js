@@ -8,7 +8,7 @@ $(document).ready(function(){
 		strings: [".", "..", "..."],
 		typeSpeed: 20,
 		callback: function(){
-        	delay(1000).line2();
+        	setTimeout(line2(), 2000);
       	}
 	});
 	function line2(){
@@ -18,7 +18,7 @@ $(document).ready(function(){
 			strings: ["Hi!"],
 			typeSpeed: 60,
 			callback: function(){
-	        	delay(1000).line3();
+	        	setTimeout(line3(), 1000);
 	      	}
 		});
 	}
@@ -29,7 +29,7 @@ $(document).ready(function(){
 			strings: ["I'm a student"],
 			typeSpeed: 60,
 		 	callback: function(){
-		        	delay(1000).line4();
+		        	setTimeout(line4(), 1000);
 		      	}
 		});
 	}
@@ -40,7 +40,7 @@ $(document).ready(function(){
 		strings: ["I'm a blogger"],
 		typeSpeed: 60,
 		callback: function(){
-	        	delay(1000).line5();
+	        	setTimeout(line5(), 1000);
 	      	}
 		});
 	}
@@ -51,7 +51,7 @@ $(document).ready(function(){
 		strings: ["I'm a developer"],
 		typeSpeed: 60,
 		callback: function(){
-	        	delay(1000).line6();
+	        	setTimeout(line6(), 1000);
 	      	}
 		});
 	}
