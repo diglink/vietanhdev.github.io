@@ -3,9 +3,9 @@ layout: null
 ---
 {% include /js/typed.js %}
 $(document).ready(function(){
-	$(".page-heading").html("<div class='text-editor-wrap'><div class='title-bar'><span class='title'>Terminal</span</div><div class='text-body'>$ <span id='typed1'></div></div>");
+	$(".page-heading").html("<div class='text-editor-wrap'><div class='title-bar'><span class='title'>Terminal</span</div><div class='text-body'>$ downloading<span id='typed1'></div></div>");
 	$("#typed1").typed({
-		strings: ["sTARTing.", "sTARTing...", "sTARTing....."],
+		strings: [".", "..", "..."],
 		typeSpeed: 20,
 		callback: function(){
         	line2();
@@ -16,7 +16,7 @@ $(document).ready(function(){
 		$("#typed1").append("<br>$ <span id='typed2'></span>");
 		$("#typed2").typed({
 			strings: ["Hi!"],
-			typeSpeed: 45,
+			typeSpeed: 60,
 			callback: function(){
 	        	line3();
 	      	}
@@ -27,7 +27,7 @@ $(document).ready(function(){
 		$("#typed2").append("<br>$ <span id='typed3'></span>");
 		$("#typed3").typed({
 			strings: ["I'm a student"],
-			typeSpeed: 45,
+			typeSpeed: 60,
 		 	callback: function(){
 		        	line4();
 		      	}
@@ -38,7 +38,7 @@ $(document).ready(function(){
 		$("#typed3").append("<br>$ <span id='typed4'></span>");
 		$("#typed4").typed({
 		strings: ["I'm a blogger"],
-		typeSpeed: 45,
+		typeSpeed: 60,
 		callback: function(){
 	        	line5();
 	      	}
@@ -49,7 +49,7 @@ $(document).ready(function(){
 		$("#typed4").append("<br>$ <span id='typed5'></span>");
 		$("#typed5").typed({
 		strings: ["I'm a developer"],
-		typeSpeed: 45,
+		typeSpeed: 60,
 		callback: function(){
 	        	line6();
 	      	}
@@ -60,7 +60,7 @@ $(document).ready(function(){
 		$("#typed5").append("<br>$ <span id='typed6'></span>");
 		$("#typed6").typed({
 		strings: ["I'm Viet Anh. Nice to meet you!"],
-		typeSpeed: 45
+		typeSpeed: 60
 		});
 	}
 });
