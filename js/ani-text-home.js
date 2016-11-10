@@ -14,7 +14,7 @@ $(document).ready(function(){
 			callback: function(){
 		    	setTimeout(function(){
 			        helloWorld();
-			    }, 3000);
+			    }, 4500);
 		    }
 		});
 	}
