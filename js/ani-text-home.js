@@ -8,7 +8,7 @@ $(document).ready(function(){
 		strings: [".", "..", "..."],
 		typeSpeed: 20,
 		callback: function(){
-        	setTimeout(line2(), 2000);
+        	line2().delay(1000).line3().delay(1000).line4().delay(1000).line5().delay(1000).line6();
       	}
 	});
 	function line2(){
@@ -16,10 +16,7 @@ $(document).ready(function(){
 		$("#typed1").append("<br>$ <span id='typed2'></span>");
 		$("#typed2").typed({
 			strings: ["Hi!"],
-			typeSpeed: 60,
-			callback: function(){
-	        	setTimeout(line3(), 1000);
-	      	}
+			typeSpeed: 60
 		});
 	}
 	function line3(){
@@ -27,40 +24,31 @@ $(document).ready(function(){
 		$("#typed2").append("<br>$ <span id='typed3'></span>");
 		$("#typed3").typed({
 			strings: ["I'm a student"],
-			typeSpeed: 60,
-		 	callback: function(){
-		        	setTimeout(line4(), 1000);
-		      	}
+			typeSpeed: 60
 		});
 	}
 	function line4(){
 		$(".typed-cursor").remove();
 		$("#typed3").append("<br>$ <span id='typed4'></span>");
 		$("#typed4").typed({
-		strings: ["I'm a blogger"],
-		typeSpeed: 60,
-		callback: function(){
-	        	setTimeout(line5(), 1000);
-	      	}
+			strings: ["I'm a blogger"],
+			typeSpeed: 60
 		});
 	}
 	function line5(){
 		$(".typed-cursor").remove();
 		$("#typed4").append("<br>$ <span id='typed5'></span>");
 		$("#typed5").typed({
-		strings: ["I'm a developer"],
-		typeSpeed: 60,
-		callback: function(){
-	        	setTimeout(line6(), 1000);
-	      	}
+			strings: ["I'm a developer"],
+			typeSpeed: 60
 		});
 	}
 	function line6(){
 		$(".typed-cursor").remove();
 		$("#typed5").append("<br>$ <span id='typed6'></span>");
 		$("#typed6").typed({
-		strings: ["I'm Viet Anh. Nice to meet you!"],
-		typeSpeed: 60
+			strings: ["I'm Viet Anh. Nice to meet you!"],
+			typeSpeed: 60
 		});
 	}
 });
