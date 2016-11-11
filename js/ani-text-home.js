@@ -18,7 +18,7 @@ $(document).ready(function(){
 		    }
 		});
 	}
-	if (w > 700) {
+	if (w > 370) {
 		helloWorld();
 	}
 });
