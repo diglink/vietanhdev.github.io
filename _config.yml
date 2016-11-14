@@ -123,6 +123,5 @@ exclude:
   - CNAME
   - Vagrantfile
 
-
 gems:
   - jekyll-paginate
